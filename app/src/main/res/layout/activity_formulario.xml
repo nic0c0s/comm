@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Formulario"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="Código del producto"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese el código del producto (Ej: 111)"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Descripcion del producto"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese una descripción del producto"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:text="Precio del producto"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese un precio (sin puntos)"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btAgregarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar datos" />
+
+    <Button
+        android:id="@+id/btActualizarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar datos" />
+
+    <Button
+        android:id="@+id/btBorrarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrar datos" />
+
+    <Button
+        android:id="@+id/btAgregarAlCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar al carrito" />
+
+    <Button
+        android:id="@+id/btMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar datos" />
+
+</LinearLayout>
